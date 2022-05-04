@@ -1,0 +1,54 @@
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+  }
+*{
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background: url("../assets/background.png");
+    height:1000px;
+    font-family:'MontSerrat', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    width:1277px;
+    margin: 57px auto 0;
+    justify-content:space-between;
+    align-items:center;
+}
+.cabecalho nav ul{
+    display:flex;
+    justify-content:space-between;
+    width:341px;
+}
+.cabecalho nav a{
+    color:var(--text-color);
+    text-decoration:none;
+    
+    font-size:18px
+}
+.cabecalho nav a:hover{
+    text-decoration: underline;
+}
+.cabecalho__btn{
+    display: flex;
+    align-items:center;
+}
+.cabecalho__btn img{
+    width: 30px;
+    height:auto;
+}
+.cabecalho__btn span{
+    font-size:16px;
+    font-weight:700;
+    margin-left:15px;
+}
