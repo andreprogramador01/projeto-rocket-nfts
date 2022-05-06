@@ -17,7 +17,7 @@
 }
 
 body{
-    background: url("../assets/background.png");
+    background: var(--body-background) url("../assets/background.png") no-repeat;
     height:1000px;
     font-family:'MontSerrat', sans-serif;
 }
@@ -119,8 +119,66 @@ body{
 .galeria img{
     border:1px solid white;
     width:307px;
-    height:auto;
+    height:197px;
 }
 .m-top{
     margin-top:60px;
+}
+.contagem{
+    width:280px;
+    height:656px;
+    display:flex;
+    gap:60px;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    border-right:1px solid var(--subtitle-color);
+    border-bottom:1px solid var(--subtitle-color);
+
+}
+.futuro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contagem div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.contagem p{
+    font-size:50px;
+    font-weight:700;
+    line-height: 60px;
+}
+.contagem span{
+    font-size:20px;
+    font-weight: 700;
+    color:var(--subtitle-color);
+}
+.texto-futuristico{
+    display: flex;
+    margin-top: 79px;
+    
+    flex-shrink: 0;
+    
+    width:934px;
+    flex-wrap: wrap;
+}
+.texto-futuristico img{
+    width: 985px;
+    height: auto;
+    margin-top:71px;
+}
+.texto-futuristico__link{
+    display: block;
+    margin-top:60px;
+}
+.texto-futuristico__esquerda{
+    width:384px;
+    font-size:18px;
+    margin-left:68px;
+    margin-right: 126px;
+}
+.texto-futuristico__direita{
+    width: 356px;
 }
