@@ -220,4 +220,38 @@ body{
 .astronautas__direita{
     margin-left:210px;
 }
+.artistas{
+    display: flex;
+    flex-wrap:wrap;
+    gap:111px;
+}
+.artistas h1{
+    flex-basis:100%;
+    font-size:50px;
+    font-weight:700;
+    line-height: 61px;
+    margin-top:147px;
+    margin-bottom:158px;
+    text-align:center;
+}
+.artista{
+    width: 350px;
+    height:150px;
+    background: var(--card-color);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.artista img{
+    width: 100px;
+    height:100px;
+}
+.artista .descricao{
+    display: flex;
+    flex-direction:column;
+    margin-left:40px;
+}
+.nome-artista, .qtd-fotografias{
+    line-height: 24px;
+}
 
