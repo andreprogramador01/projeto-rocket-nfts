@@ -182,3 +182,42 @@ body{
 .texto-futuristico__direita{
     width: 356px;
 }
+.populares{
+    display: flex;
+    flex-wrap:wrap;
+}
+.populares h1{
+    flex-basis:100%;
+    
+    font-size:50px;
+    font-weight:700;
+    line-height: 61px;
+    margin-top:147px;
+    margin-bottom:158px;
+}
+.astronauta{
+    width: 350px;
+    margin-bottom:63px;
+}
+.astronautas__esquerda{
+    margin-left:87px;
+    width: 634px;
+    border-right: 1px solid var(--subtitle-color);
+}
+.astronauta-titulo{
+    font-size:30px;
+    font-weight: 400;
+    margin-bottom: 44px;
+    display: flex;
+    justify-content:space-between;
+}
+.astronauta-nome{
+    margin-bottom:26px;
+    color:var(--subtitle-color);
+    display: flex;
+    justify-content:space-between;
+}
+.astronautas__direita{
+    margin-left:210px;
+}
+
