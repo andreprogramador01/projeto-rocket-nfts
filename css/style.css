@@ -254,4 +254,26 @@ body{
 .nome-artista, .qtd-fotografias{
     line-height: 24px;
 }
+footer{
+    margin-top:147px;
+    background: var(--card-color);
+    display: flex;
+    justify-content:center;
+}
+.linkagem-topo{
+    width: 1268px;
+    display: flex;
+    justify-content:space-between;
+}
+.linkagem-topo .link{
+    width: 80px;
+    height: 80px;
+    background:var(--color-logo);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.linkagem-topo .logo{
+    width: 276px;
+}
 
