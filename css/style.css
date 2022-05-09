@@ -259,9 +259,11 @@ footer{
     background: var(--card-color);
     display: flex;
     justify-content:center;
+    flex-wrap:wrap;
 }
 .linkagem-topo{
     width: 1268px;
+    flex-basis:100%;
     display: flex;
     justify-content:space-between;
 }
@@ -276,4 +278,72 @@ footer{
 .linkagem-topo .logo{
     width: 276px;
 }
+.menu{
+    width: 1282px;
+    height:320px;
+    display:flex;
+    border-top:1px solid var(--subtitle-color);
+    border-bottom:1px solid var(--subtitle-color);
+}
+.menu__esquerda{
+    width: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    border-right: 1px solid var(--subtitle-color);
+}
+.menu__texto{
+    width:350px;
+    font-size:30px;
+    font-weight: 400;
+    line-height: 36px;
+    
+}
+.menu__form{
+    display: flex;
+    margin-top:25px;
+}
+.menu__form input{
+    outline:none;
+    width: 280px;
+    background: var(--body-background);
+    text-align:center;
+    border:none;
+
+}
+.menu__form button{
+    width:122px;
+    background:var(--text-color);
+    color:var(--black-text);
+    border:none;
+    cursor:pointer;
+}
+.menu__form input, .menu__form button{
+    height:66px;
+    font-size:20px;
+    line-height:24px;
+}
+.menu__direita{
+    display: flex;
+    gap:126px;
+    padding-left:122px;
+}
+.menu__direita ul{
+    margin-top: 74px;
+    
+}
+.menu__direita li{
+    margin-bottom: 13px;
+}
+.menu__direita a{
+    text-decoration:none;
+    line-height:24px;
+    font-size:20px;
+    color:var(--subtitle-color)
+}
+.menu__direita strong{
+    font-weight: 700;
+}
+
 
